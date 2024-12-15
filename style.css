@@ -164,42 +164,25 @@ body::before{
 }
 .section-message img{
     width: fit-content;
-    height: 160px;
+    height: 140px;
 }
 /* Base styles */
 * {
   box-sizing: border-box;
   /* ... other styles */
 }
-
-/* Mobile Styles */
 @media (max-width: 768px) {
+  /* Mobile styles */
   .main-container {
-    width: 90%;
+    width: 90%; /* Or a fixed width */
   }
-  .city-txt,
-  .temp-txt,
-  .condition-text,
-  .humidity-value-txt,
-  .wind-value-txt,
-  .forecast-item-date,
-  .h5-forecast-item-temp {
-    font-size: 16px;
-  }
-  .weather-summary-container,
-  .weather-condition-container {
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-  }
+  /* Other mobile-specific styles */
 }
 
-/* Tablet Styles (Optional) */
-@media (min-width: 768px) and (max-width: 992px) {
-  /* Specific styles for tablets */
-}
-
-/* Desktop Styles (Optional) */
-@media (min-width: 992px) {
-  /* Specific styles for desktops */
+@media (min-width: 769px) {
+  /* Desktop styles */
+  .main-container {
+    width: 350px; /* Or a wider width */
+  }
+  /* Other desktop-specific styles */
 }
