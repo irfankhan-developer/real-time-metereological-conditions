@@ -164,7 +164,7 @@ body::before{
 }
 .section-message img{
     width: fit-content;
-    height: 100px;
+    height: 160px;
 }
 /* Base styles */
 * {
